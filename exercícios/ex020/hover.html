@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div:hover {
+            height: 21px;
+            width: 70px;
+            color: white;
+            background-color: rgb(255, 148, 60);
+        }
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            height: 50px;
+            width: 70px;
+            color: white;
+            background-color: rgb(255, 148, 60);
+        }
+        
+    </style>
+
+
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+        <p>Menu</p>
+            <div>
+                Produtos
+                <p>Fones de Ouvido</p>
+            </div>
+
+</body>
+</html>

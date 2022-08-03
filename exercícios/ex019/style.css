@@ -1,0 +1,36 @@
+@charsert "UTF-8";
+
+*{
+    
+}
+
+body{
+    background-color: rgb(46, 46, 46);
+    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #ff1e00;
+    margin-top: -100px;
+    margin-inline: -100px;
+    color: white;
+}
+
+h1{
+    color: #ff1e00;
+}
+
+h2{
+    color: rgb(255, 51, 0);
+}
+
+p{
+    text-align: justify;
+    color: white;
+}
+/*
+em HTML é ID = em CSS é #
+em HTML é class = CSS é .
+*/

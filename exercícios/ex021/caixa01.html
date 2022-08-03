@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de Caixa</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /*DISPLAY BLOCK*/
+
+        h1{
+            background-color: #7fffd4;
+            height: 72px;
+            width: 237px;
+            text-align: center;
+            
+            /*
+            border-width: 3px;
+            border-style: solid;
+            border-color: #41836d;
+
+            PODEM SER ABREVIADAS COMO NO EXEMPLO A BAIXO:
+            */
+
+            border: 10px solid darkblue;
+            
+            /*
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+
+            TAMBÉM PODEM SER ABREVIADAS COMO NO EXEMPLO A BAIXO:
+            */
+            /*padding: 10px 10px 10px 10px;/*
+            /*MELHOR AINDA! SE TODOS OS CANTOS FOREM IGUAIS COMO 
+            O EXEMPLO A CIMA, PODEMOS ABREVIAR TUDO DESSA FORMA:*/
+            /*padding: 10px;*/
+            /*E QUANDO COLOCAMOS:*/
+            padding: 10px 20px;
+            /*O PRIMEIRO VALOR É DISTRIBUIDO PARA CIMA E PARA BAIXO
+            ENQUANTO O SEGUNDO É PARA A DIREITA E PARA A ESQUERDA*/
+
+            /*SEGUINDO OS EXEMPLOS DO PADDING E DO BORDER, TAMBÉM PODEMOS FAZER
+            O MESMO COM O MARGIN*/
+            /*margin-top: 20px;
+            margin-right: 40px;
+            margin-bottom: 20px;
+            margin-left: 20px;*/
+
+            margin: 10px 20px 10px 20px;
+
+            /*SE REPARAR, A ORDEM É COMO UM RELOGIO, COMEÇA NO TOPO, DEPOIS A DIREITA
+            DEPOIS EM BAIXO E FINALIZA NA ESQUERDA.*/
+
+            /*SEGUINDO COM OS EXEMPLOS, TEMOS O "OUTLINE" QUE É POQUISSIMO USADO, POIS ELE TRAÇA O BOX */
+            outline: 10px dashed salmon;
+            /*
+            outline-width: 10px;
+            outline-style: dashed;
+            outline-color: salmon;
+            */
+        }
+
+        /*DISPLAY IN-LINE*/
+
+        a{
+            border-width: 1px;
+            border-style: solid;
+            border-color: red;
+
+        }
+    </style>
+
+</head>
+<body>
+    <h1>  Exemplo de caixa box-level</h1>
+        <p>Parágrafos também são exemplos de box-level, mas os <a href=#>Links são exemplos de caixas inline-level</a>. Vamos ver como isso funciona</p>
+
+</body>
+</html>

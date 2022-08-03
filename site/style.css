@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+
+}
+
+header{
+    background-image: linear-gradient( to right, rgb(0, 80, 253), blue);
+    margin: 0px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, 0.322);
+}
+
+
+nav{
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+    
+
+   
+}
+
+nav > a{
+    display: inline-block;
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+   margin-right: 100px;
+   
+   text-align: center;
+}
+
+a:hover{
+    color: rgb(255, 187, 0);
+}
+
+h1{
+    font-size: 3em;
+    color: white;
+    margin: 3px;
+    text-align: left;
+    
+}
+
+p{
+    color: white;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 1px;
+    font-size: 1.4em;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: -10px;
+    height: 10px;
+}
+
+img.pc{
+    display: inline-block;
+    margin-top: -155px ;
+    margin-left: 800px;
+
+}
+
+h2.principal{
+    color: rgb(0, 132, 255);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-top: 60px;
+    margin-left: 100px;
+    font-size: 1.7em;
+    margin-bottom: 0px;
+}
+
+p.montagem {
+    color: rgb(46, 46, 46);
+    margin-top: 0px;
+    font-weight: normal;
+    margin-left: 140px;
+    
+}
+
+img.iphone {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 55px;
+
+}
+
+h2.frase_pc {
+    font-size: 2.5em;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: rgb(22, 22, 22);
+}
+
+h2.frase_iphone {
+    font-size: 2.5em;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: rgb(22, 22, 22);
+}
+
+p.p_iphone {
+    color: rgb(46, 46, 46);
+    margin-top: 0px;
+    font-weight: normal;
+    margin-left: 120px;
+}
+
+h2.t_iphone{
+    color: #0084ff;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-left: 100px;
+    font-size: 1.7em;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+section{
+    margin: -270px 0px 0px 470px;
+}
