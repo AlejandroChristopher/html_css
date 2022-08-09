@@ -5,64 +5,90 @@
     padding: 0px;
 }
 
-section.imagem{
-    background-attachment: fixed;
+html, body{
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
 }
 
-section#img{
-    background-image: url(imagens/background001.jpg);
-    background-size: cover;
-}
-
-body img{
-    background-attachment: ;
-    max-height: 898px;
-    margin: auto;
-}
-
-header{
+header {
     background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 269px;
-
-}
-
-header h1{
-    font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
-    padding-top: 50px;
-    font-size: 3em;
+    
+}
 
+header h1 {
+    font-size: 4em;
+    padding-top: 50px;
+    font-variant: small-caps;
 }
 
 header p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding-bottom: 50px;
+
+}
+
+a{
     color: white;
-    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
+a:hover {
+    color: orange;
+}
 
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-size: 4vh;
+    padding-left: 35px;
+}
 
+section > p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
-
-#container{
-    position: relative;
+section.normal{
     background-color: white;
-    height: 896px;
+
     
 
 }
-#conteudo{
-    position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
-    padding: 20px;
-    line-height: 1.7em;
-    
-    
-    left: 15%;
-    top: 50%;
 
-    transform: translate(-50%, -50%);
+section.imagem{
+    background-color: rgb(61, 61, 61);
+    color: white;
+    
+
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.521);
+    width: 400px;
+}
+
+section#imagem01{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+section#imagem02{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
