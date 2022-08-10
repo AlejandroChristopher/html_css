@@ -48,9 +48,8 @@ section{
     padding-left: 35px;
 }
 
-section > p{
-    padding-top: 10px;
-    padding-bottom: 10px;
+section.normal > p{
+    padding-bottom: 2em;
 }
 
 section.normal{
